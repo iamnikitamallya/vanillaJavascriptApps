@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator - Vanilla Javascript</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c9ec901327.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-dark">
+    <section class="section section-dark">
+        <div class="container">
+            <p class="main text-center">
+                <span>Writing codes in Vanilla Javascript</span>
+                <span class="float-right">Loan Calculator | <a href="index.html" class="text-light"><i class="fa fa-home"></i> Home</a></span>
+            </p>
+        </div>
+    </section>
+    <section class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="card card-body text-center mt-5 bg-white">
+                        <h1>Loan Calculator</h1>
+                        <form id="loan-form">
+                            <div class="form-group mb-3">
+                                <label for="" class="float-start form-label fw-bold">Loan Amount</label>
+                                <div class="input-group mb-2">
+                                    <span class="input-group-text"><i class="fa fa-inr"></i></span>
+                                    <input type="number" placeholder="Loan Amount" id="loan_amount" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="" class="float-start form-label fw-bold">Rate of Interest</label>
+                                <div class="input-group mb-2">
+                                    <span class="input-group-text"><i class="fa fa-percentage"></i></span>
+                                    <input type="number" placeholder="Rate of Interest" id="interest" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="" class="float-start form-label fw-bold">Tenure(in years)</label>
+                                <div class="input-group mb-2">
+                                    <span class="input-group-text"><i class="fa fa-calendar"></i></span>
+                                    <input type="number" placeholder="Years to pay" id="years" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-block btn-dark" value="Calculate">
+                            </div>
+                        </form>
+
+                        <!--
+                            Loading Section
+                        -->
+
+                        <div class="loading" id="loading">
+                            <img src="images/loader.gif" alt="">
+                        </div>
+
+
+                        <div id="results" class="pt-5">
+                            <h5>Result</h5>
+                            <form id="loan-form">
+                                <div class="form-group">
+                                    <div class="input-group mb-2">
+                                        <span class="input-group-text">Monthly Payment</span>
+                                        <input type="number" id="monthly_payment" class="form-control" disabled>
+                                    </div>
+                                    <div class="input-group mb-2">
+                                        <span class="input-group-text">Total Amount</span>
+                                        <input type="number" id="total_amount" class="form-control" disabled>
+                                    </div>
+                                    <div class="input-group mb-2">
+                                        <span class="input-group-text">Total Interest</span>
+                                        <input type="number" id="total_interest" class="form-control" disabled>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center">
+        <p class="main text-dark">
+            Copyright @ <script>const d = new Date(); document.write(d);</script>
+        </p>
+    </footer>
+    <script src="js/loan-calculator.js"></script>
+</body>
+</html>

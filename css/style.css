@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0px
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #002e4b !important;
+}
+.section-dark {
+    background-color: #333;
+}
+
+.text-light {
+    color: #9ff !important;
+}
+
+.float-right {
+    float: right;
+}
+
+p.main {
+    /* background-color: #333; */
+    color: #9ff;
+    padding: 10px 0px;
+    margin: 0px;
+}
+ul {
+    padding-left: 0px;
+}
+li.children {
+    list-style: none;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: #ecf8ff;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    color: #5E969A;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    font-size: 20px;
+}
+
+h1 {
+    color: #5E969A;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+p.lead {
+    text-transform: initial;
+letter-spacing: 0px;
+font-family: 'Rajdhani', sans-serif;
+color: #000;
+font-weight: 500;
+font-size: 14px;
+}
+
+li.children button {
+    color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 10px;
+font-weight: 300;
+background-color: #5E969A;
+padding: 5px;
+border-radius: 3px;
+border: 0px
+}
+
+li.children button a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+ul.parents {
+    height: 500px;
+overflow: hidden;
+overflow-y: scroll;
+}
+
+.parents::-webkit-scrollbar-thumb {
+border-radius: 0;
+border: 0;
+background-color: #5E969A;
+}
+
+.parents::-webkit-scrollbar {
+-webkit-appearance: none;
+width: 2px;
+height: 2px;
+background-color: #ddd;
+}
+
+.ptb-25 {
+    padding: 25px 0px;
+}
+
+.card {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: #9ff;
+    background: #333333;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1rem;
+    color: #000;
+    font-weight: 700;
+}
+
+.card .btn {
+    background: red;
+    width: max-content;
+    margin: auto;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 0px 10px;
+    margin-top: 10px;
+    background: #9ff;
+    line-height: 20px;
+    /* color: red; */
+    /* border: 1px solid #eee; */
+    font-weight: 600;
+}
+
+.card .btn a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+}
+
+.btn-light:focus {
+    color: #fff !important;
+}
+
+.btn-light {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+footer {
+    background: #fff;
+    color: #333;
+    border-top: 1px solid #eee;
+    /* position: absolute; */
+    width: 100%;
+}
+
+.text-dark {
+    color: #333
+}
+
+.card-light {
+    background: #fff;
+    color: #333;
+    text-align: left;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn-dark {
+    text-align: left;
+    width: max-content;
+    margin-left: 0px !important;
+    padding: 5px 20px !important;
+    background: #333 !important;
+    color: #9ff;
+}
+
+.btn-light {
+    text-align: left;
+    width: max-content;
+    margin-left: 0px !important;
+    padding: 5px 20px !important;
+    background: #5E969A !important;
+    color: #fff;
+}
+
+.btn-dark a {
+    color: #9ff !important;
+}
+
+.btn-light a {
+    color: #fff !important;
+}
+
+input {
+    border: 0px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    font-size: 18px;
+}
+
+input:focus-visible {
+    outline: none;
+    border-bottom: 1px solid #999;
+}
+
+small {
+    font-size: 14px;
+}
+
+ul.tasks li {
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+    font-size: 18px;
+    padding: 5px 15px;
+}
+
+ul.tasks li span i {
+    color: #5E969A;
+    font-size: 14px;
+}
+
+i.close {
+    cursor: pointer;
+}
+
+.btn-dark:focus {
+    box-shadow: none !important;
+}
+
+i.reload-win {
+    float: right;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    color: #45989b;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+li.note {
+    line-height: 14px;
+    color: #999;
+}
+
+p.main span.float-right {
+    position: absolute;
+    right: 50px;
+}
+
+.loading img {
+    width: 100px;
+}
+
+@media (max-width: 768px) {
+    p.main {
+        display: flex;
+    flex-flow: column;
+    }
+    p.main span.float-right {
+        position: initial;
+    }
+}
+
+.todo-btn {
+    padding: 5px 10px !important;
+    
+}
+
+.todo-btn i {
+    font-size: 14px;
+}
+
+.todo-btn {
+    font-size: initial;
+    line-height: initial;
+}
+
+ul.todo-items .todos {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: #63f5f9;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #42cfd3;
+}
+
+ul.todo-items .todos li {
+    font-size: 18px;
+    padding-left: 10px;
+    position: absolute;
+    left: 20px;
+}
+
+ul.todo-items .todos button i {
+    font-size: 16px;
+}
+
+ul.todo-items .todos button i.fa-check {
+    color: #06b10a;
+}
+
+ul.todo-items .todos button i.fa-trash {
+    color: red;
+}
+
+
+.form-control:focus-visible, .form-control:focus {
+    outline: none;
+    border-color: none !important;
+    box-shadow: none;
+}
+
+button.complete {
+    border: 0px !important;
+    background: #eee !important;
+    padding: 0px 15px;
+}
+
+button.delete {
+    border: 0px !important;
+    background: #fff !important;
+    padding: 0px 15px;
+}
+
+ul.todo-items .todos.completedTask {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #dddddd;
+    background: #f5ffff !important;
+}
+
+ul.todo-items .todos.completed li.todo-content {
+    text-decoration: line-through !important;
+    color: #000;
+}
+
+.completed {
+    opacity: 0.3;
+}
+
+.fall {
+    transform: translateY(10rem) rotateZ(20deg);
+    opacity: 0;
+}

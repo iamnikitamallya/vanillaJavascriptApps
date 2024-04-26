@@ -1,0 +1,87 @@
+.w {
+    background-image: url("../images/drum-kit/tom1.png");
+  }
+  
+  .a {
+    background-image: url("../images/drum-kit/tom2.png");
+  }
+  
+  .s {
+    background-image: url("../images/drum-kit/tom3.png");
+  }
+  
+  .d {
+    background-image: url("../images/drum-kit/tom4.png");
+  }
+  
+  .j {
+    background-image: url("../images/drum-kit/tom5.png");
+  }
+  
+  .k {
+    background-image: url("../images/drum-kit/crash.png");
+  }
+  
+  .l {
+    background-image: url("../images/drum-kit/kick.png");
+  }
+  
+  .set {
+    /* margin: 10% auto; */
+    display: flex;
+    width: 100%;
+    /* max-width: 100%; */
+    flex-flow: wrap;
+    justify-content: space-between;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .drum {
+    outline: none;
+    border: 1px solid #404b69;
+    font-size: 51px;
+    font-family: "Arvo", cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #da0463;
+    text-shadow: 3px 0 #dbedf3;
+    border-radius: 15px;
+    /* display: inline-block; */
+    width: 150px;
+    height: 130px;
+    line-height: 36px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    background-size: contain;
+  }
+
+  @media(max-width: 768px) {
+    .drum {
+      outline: none;
+      border: 1px solid #404b69;
+      font-size: 51px;
+      font-family: "Arvo", cursive;
+      line-height: 2;
+      font-weight: 900;
+      color: #da0463;
+      text-shadow: 3px 0 #dbedf3;
+      border-radius: 15px;
+      /* display: inline-block; */
+      width: 75px;
+      height: 75px;
+      line-height: 36px;
+      text-align: center;
+      margin: 10px;
+      background-color: white;
+      background-size: contain;
+    }
+  }

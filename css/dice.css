@@ -1,0 +1,20 @@
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+
+h1 {
+    margin: 30px;
+    font-family: "Lobster", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 6rem;
+    color: #4ecca3 !important;
+  }
+
+  p {
+    color: #fff !important
+  }
+
+  img {
+    width: 80%;
+  }
